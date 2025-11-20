@@ -1,0 +1,306 @@
+{
+  "Frontend Developer": {
+    "skills": ["javascript", "typescript", "react", "vue", "html", "css", "responsive design", "accessibility", "webpack", "vite", "tailwind", "redux", "testing", "jest", "babel", "storybook"],
+    "projects": [
+      {"title": "Interactive Dashboard", "description": "Build a data dashboard with charts, filters and responsive layout.", "tech_stack": ["React", "D3", "Tailwind"]},
+      {"title": "Component Library", "description": "Create a reusable component library with Storybook and tests.", "tech_stack": ["React", "Storybook", "Jest"]},
+      {"title": "Landing Page", "description": "High-performance landing page with animations and accessibility.", "tech_stack": ["HTML", "CSS", "JavaScript"]}
+    ]
+  },
+  "Backend Developer": {
+    "skills": ["python", "node", "java", "rest apis", "graphql", "sql", "nosql", "postgresql", "mongodb", "docker", "testing", "ci/cd", "fastapi", "express", "authentication", "redis"],
+    "projects": [
+      {"title": "REST API Service", "description": "Design and implement CRUD and auth APIs with tests.", "tech_stack": ["FastAPI", "Postgres", "Docker"]},
+      {"title": "Auth Service", "description": "JWT/OAuth based authentication microservice.", "tech_stack": ["Node", "Express", "Redis"]},
+      {"title": "Background Worker", "description": "Implement worker queue for async tasks.", "tech_stack": ["Celery", "RabbitMQ", "Python"]}
+    ]
+  },
+  "Full Stack Developer": {
+    "skills": ["javascript", "react", "node", "sql", "rest apis", "html", "css", "deployment", "docker", "authentication", "graphql", "testing"],
+    "projects": [
+      {"title": "Fullstack App", "description": "Frontend + backend + DB + deploy to cloud.", "tech_stack": ["React", "Node", "Postgres"]},
+      {"title": "SaaS MVP", "description": "Subscription flow & payments (mock integration).", "tech_stack": ["Stripe (mock)", "React", "Node"]},
+      {"title": "Realtime Chat", "description": "Websocket-based messaging app.", "tech_stack": ["Socket.io", "Node", "React"]}
+    ]
+  },
+  "Software Engineer": {
+    "skills": ["data structures", "algorithms", "design patterns", "system design", "testing", "git", "ci/cd", "performance", "debugging", "java", "python", "c++", "oop"],
+    "projects": [
+      {"title": "Algorithm Visualizer", "description": "Implement and visualize key algorithms and data structures.", "tech_stack": ["JavaScript", "Canvas"]},
+      {"title": "Microservice", "description": "Design and build a microservice with resilience.", "tech_stack": ["Spring", "Docker"]},
+      {"title": "System Design Doc", "description": "Document a scalable system and prototyping.", "tech_stack": ["Docs", "Diagrams"]}
+    ]
+  },
+  "Mobile Developer (Android/iOS)": {
+    "skills": ["kotlin", "swift", "react native", "flutter", "mobile ui", "performance", "testing", "play store", "app store"],
+    "projects": [
+      {"title": "Cross-platform App", "description": "Build mobile app with React Native or Flutter.", "tech_stack": ["React Native", "Expo"]},
+      {"title": "Native Android App", "description": "Kotlin-based Android feature app.", "tech_stack": ["Kotlin", "Coroutines"]},
+      {"title": "iOS App Prototype", "description": "SwiftUI prototype focusing on user flows.", "tech_stack": ["SwiftUI"]}
+    ]
+  },
+  "Data Analyst": {
+    "skills": ["python", "sql", "pandas", "numpy", "data analysis", "data visualization", "tableau", "power bi", "excel", "statistics", "etl", "sqlalchemy", "dashboards"],
+    "projects": [
+      {"title": "Sales Dashboard (ETL + Viz)", "description": "Ingest CSV/DB, clean data, build dashboard.", "tech_stack": ["Python", "Pandas", "SQL", "Tableau"]},
+      {"title": "Customer Segmentation", "description": "Segment customers using clustering and visualize results.", "tech_stack": ["Python", "scikit-learn", "Pandas"]},
+      {"title": "Automated Reporting", "description": "Scheduled ETL jobs and weekly reports.", "tech_stack": ["Airflow", "Python", "SQL"]}
+    ]
+  },
+  "Data Scientist": {
+    "skills": ["python", "sql", "pandas", "numpy", "scikit-learn", "machine learning", "data cleaning", "feature engineering", "model evaluation", "statistics", "visualization"],
+    "projects": [
+      {"title": "End-to-End ML Model", "description": "Train, validate and deploy a predictive model.", "tech_stack": ["Python", "scikit-learn", "Flask"]},
+      {"title": "NLP Sentiment Analysis", "description": "Build text preprocessing and classifier pipeline.", "tech_stack": ["Python", "NLTK", "Transformers"]},
+      {"title": "Time Series Forecasting", "description": "Forecast metrics with models.", "tech_stack": ["Prophet", "Pandas"]}
+    ]
+  },
+  "Machine Learning Engineer": {
+    "skills": ["python", "pytorch", "tensorflow", "deep learning", "deployment", "mlops", "docker", "onnx", "model optimization", "monitoring"],
+    "projects": [
+      {"title": "Training Pipeline", "description": "Create repeatable training pipeline.", "tech_stack": ["PyTorch", "Docker", "MLflow"]},
+      {"title": "Model Serving", "description": "Serve models with autoscaling.", "tech_stack": ["FastAPI", "Docker", "Kubernetes"]},
+      {"title": "Model Optimization", "description": "Quantize/optimize model for inference.", "tech_stack": ["ONNX", "TensorRT"]}
+    ]
+  },
+  "MLOps Engineer": {
+    "skills": ["mlops", "ci/cd", "docker", "kubernetes", "airflow", "kubeflow", "model monitoring", "prometheus", "grafana"],
+    "projects": [
+      {"title": "CI/CD for Models", "description": "Hook model training to CI/CD with tests & monitoring.", "tech_stack": ["GitHub Actions", "Docker", "Kubernetes"]},
+      {"title": "Model Registry", "description": "Implement model versioning and deployment pipeline.", "tech_stack": ["MLflow", "Seldon"]},
+      {"title": "Monitoring Stack", "description": "Monitor model performance in production.", "tech_stack": ["Prometheus", "Grafana"]}
+    ]
+  },
+  "Data Engineer": {
+    "skills": ["sql", "etl", "airflow", "spark", "hadoop", "python", "data pipelines", "big data", "redshift", "kafka", "aws", "gcp"],
+    "projects": [
+      {"title": "ETL Pipeline", "description": "End-to-end ETL pipeline with scheduling.", "tech_stack": ["Airflow", "Python", "Postgres"]},
+      {"title": "Streaming Pipeline", "description": "Real-time ingestion and processing.", "tech_stack": ["Kafka", "Spark"]},
+      {"title": "Data Lake", "description": "Design data lake and partitioning.", "tech_stack": ["S3", "Glue", "Athena"]}
+    ]
+  },
+  "NLP Engineer": {
+    "skills": ["nlp", "transformers", "tokenization", "python", "pytorch", "huggingface", "text preprocessing", "sequence models"],
+    "projects": [
+      {"title": "Text Classifier", "description": "Build transformer-based classifier.", "tech_stack": ["HuggingFace", "PyTorch"]},
+      {"title": "NER Pipeline", "description": "Named entity recognition pipeline.", "tech_stack": ["SpaCy", "Python"]},
+      {"title": "Summarization", "description": "Implement abstractive summarizer.", "tech_stack": ["Transformers"]}
+    ]
+  },
+  "Computer Vision Engineer": {
+    "skills": ["computer vision", "opencv", "deep learning", "pytorch", "tensorflow", "object detection", "segmentation"],
+    "projects": [
+      {"title": "Object Detector", "description": "Train object detection model and serve.", "tech_stack": ["PyTorch", "Detectron2"]},
+      {"title": "Image Segmentation", "description": "Segmentation for domain-specific dataset.", "tech_stack": ["U-Net", "PyTorch"]},
+      {"title": "Vision Pipeline", "description": "Preprocessing and augmentation pipeline.", "tech_stack": ["OpenCV"]}
+    ]
+  },
+  "DevOps Engineer": {
+    "skills": ["docker", "kubernetes", "ci/cd", "terraform", "monitoring", "linux", "bash", "ansible", "helm"],
+    "projects": [
+      {"title": "CI/CD Pipeline", "description": "Build pipelines and tests for deployments.", "tech_stack": ["GitHub Actions", "Docker"]},
+      {"title": "K8s Deployment", "description": "Deploy microservices to Kubernetes.", "tech_stack": ["Kubernetes", "Helm"]},
+      {"title": "Infra as Code", "description": "Provision infra with Terraform.", "tech_stack": ["Terraform", "AWS"]}
+    ]
+  },
+  "Cloud Engineer": {
+    "skills": ["aws", "azure", "gcp", "terraform", "serverless", "docker", "kubernetes", "networking", "iam"],
+    "projects": [
+      {"title": "Serverless API", "description": "API using cloud functions.", "tech_stack": ["AWS Lambda", "API Gateway"]},
+      {"title": "Infra Automation", "description": "IaC with Terraform.", "tech_stack": ["Terraform", "AWS"]},
+      {"title": "Hybrid Cloud Setup", "description": "Integrate cloud & on-prem.", "tech_stack": ["GCP", "VPN"]}
+    ]
+  },
+  "Site Reliability Engineer": {
+    "skills": ["sre", "monitoring", "prometheus", "grafana", "incident response", "kubernetes", "observability"],
+    "projects": [
+      {"title": "Monitoring Playbook", "description": "Build monitoring and oncall playbooks.", "tech_stack": ["Prometheus", "Grafana"]},
+      {"title": "Chaos Engineering", "description": "Introduce fault injection to test resilience.", "tech_stack": ["Chaos Toolkit"]},
+      {"title": "Service Level Objectives", "description": "Define and implement SLOs/SLIs.", "tech_stack": ["Docs", "Metrics"]}
+    ]
+  },
+  "Security Engineer": {
+    "skills": ["cybersecurity", "penetration testing", "nist", "security audit", "network security", "owasp", "siem"],
+    "projects": [
+      {"title": "Security Audit", "description": "Run security scans and patching plan.", "tech_stack": ["ZAP", "Burp"]},
+      {"title": "SIEM Pipeline", "description": "Centralize logs and alerts.", "tech_stack": ["Splunk", "ELK"]},
+      {"title": "WAF Rules", "description": "Implement WAF and rules.", "tech_stack": ["Cloudflare", "WAF"]}
+    ]
+  },
+  "QA / Test Automation Engineer": {
+    "skills": ["test automation", "selenium", "cypress", "unit testing", "integration testing", "pytest", "jest", "tdd"],
+    "projects": [
+      {"title": "E2E Test Suite", "description": "Write reliable end-to-end tests.", "tech_stack": ["Cypress", "Selenium"]},
+      {"title": "Unit Test Coverage", "description": "Improve test coverage and CI gating.", "tech_stack": ["Jest", "PyTest"]},
+      {"title": "Performance Test", "description": "Load testing and optimization.", "tech_stack": ["JMeter", "Locust"]}
+    ]
+  },
+  "Product Manager (Tech)": {
+    "skills": ["roadmapping", "stakeholder management", "analytics", "user research", "prioritization", "okrs"],
+    "projects": [
+      {"title": "PRD for Feature", "description": "Write a product requirements document and roadmap.", "tech_stack": ["Docs", "Figma"]},
+      {"title": "A/B Experiment", "description": "Design and analyze an experiment.", "tech_stack": ["SQL", "Python"]},
+      {"title": "Market Analysis", "description": "Deliver competitive analysis and metrics.", "tech_stack": ["Sheets"]}
+    ]
+  },
+  "UI/UX Designer": {
+    "skills": ["figma", "ux research", "user testing", "visual design", "prototyping", "interaction design"],
+    "projects": [
+      {"title": "Redesign Flow", "description": "Redesign core user flow and test with users.", "tech_stack": ["Figma", "Miro"]},
+      {"title": "Design System", "description": "Build design tokens and components.", "tech_stack": ["Figma"]},
+      {"title": "Prototype Test", "description": "Run user testing sessions for prototype.", "tech_stack": ["Lookback"]}
+    ]
+  },
+  "Technical Writer": {
+    "skills": ["technical writing", "api docs", "markdown", "rest apis", "developer experience", "cli docs"],
+    "projects": [
+      {"title": "API Docs", "description": "Write clear API reference and guides.", "tech_stack": ["Markdown", "OpenAPI"]},
+      {"title": "Tutorials", "description": "Author step-by-step tutorials and sample code.", "tech_stack": ["Docs", "Examples"]},
+      {"title": "SDK Docs", "description": "Document SDK usage and patterns.", "tech_stack": ["Docs"]}
+    ]
+  },
+  "Blockchain Developer": {
+    "skills": ["blockchain", "solidity", "smart contracts", "ethereum", "web3", "cryptography", "truffle", "hardhat"],
+    "projects": [
+      {"title": "Smart Contract", "description": "Develop and test smart contract with unit tests.", "tech_stack": ["Solidity", "Hardhat"]},
+      {"title": "DApp", "description": "Simple decentralized application with wallet integration.", "tech_stack": ["Web3", "React"]},
+      {"title": "Tokenomics Prototype", "description": "Design token flows for a sample product.", "tech_stack": ["Docs"]}
+    ]
+  },
+  "Game Developer": {
+    "skills": ["game development", "unity", "unreal", "c#", "c++", "3d modeling", "game physics"],
+    "projects": [
+      {"title": "Small 2D Game", "description": "Create a 2D game with player mechanics.", "tech_stack": ["Unity", "C#"]},
+      {"title": "3D Prototype", "description": "Prototype a 3D game scene and physics.", "tech_stack": ["Unreal", "C++"]},
+      {"title": "Game AI", "description": "Implement NPC pathfinding and behaviors.", "tech_stack": ["Unity"]}
+    ]
+  },
+  "AR/VR Developer": {
+    "skills": ["unity", "unreal", "xr", "vr", "3d", "c#", "oculus"],
+    "projects": [
+      {"title": "VR Experience", "description": "Build immersive VR prototype.", "tech_stack": ["Unity", "Oculus"]},
+      {"title": "AR Demo", "description": "Simple AR app for mobile.", "tech_stack": ["ARKit", "ARCore"]},
+      {"title": "XR UI", "description": "Design UI/UX for immersive apps.", "tech_stack": ["Figma", "Unity"]}
+    ]
+  },
+  "Big Data Engineer": {
+    "skills": ["hadoop", "spark", "airflow", "kafka", "hive", "big data", "scala", "etl"],
+    "projects": [
+      {"title": "Spark ETL", "description": "Large-scale ETL using Spark.", "tech_stack": ["PySpark", "Airflow"]},
+      {"title": "Data Lakehouse", "description": "Implement Delta Lake patterns.", "tech_stack": ["Databricks", "S3"]},
+      {"title": "Streaming ETL", "description": "Real-time processing pipeline.", "tech_stack": ["Kafka", "Spark Streaming"]}
+    ]
+  },
+  "Business Intelligence Analyst": {
+    "skills": ["tableau", "power bi", "sql", "data visualization", "excel", "dashboards", "analytics"],
+    "projects": [
+      {"title": "BI Dashboard", "description": "End-to-end dashboard with KPIs and drilldowns.", "tech_stack": ["Tableau", "SQL"]},
+      {"title": "Reporting Automation", "description": "Automate scheduled reports.", "tech_stack": ["Python", "Excel"]},
+      {"title": "Ad-hoc Analysis", "description": "Deliver insights based on business questions.", "tech_stack": ["SQL", "Python"]}
+    ]
+  },
+  "Computer Graphics Engineer": {
+    "skills": ["opengl", "graphics", "rendering", "c++", "shaders", "3d math"],
+    "projects": [
+      {"title": "Shader Toy", "description": "Create custom shaders.", "tech_stack": ["GLSL", "OpenGL"]},
+      {"title": "Renderer", "description": "Prototype a simple software renderer.", "tech_stack": ["C++"]},
+      {"title": "Graphics Demo", "description": "Interactive 3D demo.", "tech_stack": ["WebGL"]}
+    ]
+  },
+  "Embedded Systems Engineer": {
+    "skills": ["c", "c++", "embedded", "rtos", "microcontrollers", "hardware", "firmware"],
+    "projects": [
+      {"title": "IoT Device", "description": "Prototype sensor device with connectivity.", "tech_stack": ["C", "FreeRTOS"]},
+      {"title": "Firmware", "description": "Implement control loop and update OTA.", "tech_stack": ["C++"]},
+      {"title": "Hardware-Software Integration", "description": "Integrate firmware with hardware sensors.", "tech_stack": ["Electronics"]}
+    ]
+  },
+  "IoT Engineer": {
+    "skills": ["iot", "mqtt", "embedded", "sensors", "cloud integration", "edge computing"],
+    "projects": [
+      {"title": "Connected Sensor", "description": "Collect sensor data and push to cloud.", "tech_stack": ["MQTT", "AWS IoT"]},
+      {"title": "Edge Analytics", "description": "Simple edge inference pipeline.", "tech_stack": ["Python", "Edge TPU"]},
+      {"title": "Dashboard", "description": "Visualize IoT telemetry in dashboard.", "tech_stack": ["React", "Node"]}
+    ]
+  },
+  "Computer Science Intern (Entry Level)": {
+    "skills": ["python", "data structures", "algorithms", "git", "testing"],
+    "projects": [
+      {"title": "Intern Project", "description": "Small feature or automation for the org.", "tech_stack": ["Python"]},
+      {"title": "Algorithm Practice", "description": "Implement algorithms and write tests.", "tech_stack": ["Python"]},
+      {"title": "Tooling Script", "description": "Automation or script to improve workflow.", "tech_stack": ["Bash", "Python"]}
+    ]
+  },
+  "DevRel / Developer Advocate": {
+    "skills": ["public speaking", "technical writing", "sdk", "api", "community", "demos"],
+    "projects": [
+      {"title": "Sample SDK", "description": "Build and document a sample SDK.", "tech_stack": ["Docs", "Examples"]},
+      {"title": "Tutorial Series", "description": "Create tutorial videos and articles.", "tech_stack": ["Video", "Docs"]},
+      {"title": "Demo App", "description": "Showcase product integrations.", "tech_stack": ["JavaScript"]}
+    ]
+  },
+  "Analytics Engineer": {
+    "skills": ["dbt", "sql", "data modeling", "warehouse", "bigquery", "redshift", "data engineering"],
+    "projects": [
+      {"title": "dbt Models", "description": "Create dbt models and tests.", "tech_stack": ["dbt", "BigQuery"]},
+      {"title": "Warehouse Design", "description": "Design dimensional model for analytics.", "tech_stack": ["Redshift"]},
+      {"title": "Data Tests", "description": "Implement data quality checks.", "tech_stack": ["Great Expectations"]}
+    ]
+  },
+  "Performance Engineer": {
+    "skills": ["profiling", "performance", "benchmarking", "optimization", "c++", "java", "python"],
+    "projects": [
+      {"title": "Perf Benchmark", "description": "Benchmark critical paths and optimize.", "tech_stack": ["JMH", "Perf tools"]},
+      {"title": "Memory Profiling", "description": "Find and fix memory leaks.", "tech_stack": ["Valgrind"]},
+      {"title": "Latency Optimization", "description": "Reduce tail latency for service.", "tech_stack": ["Tracing"]}
+    ]
+  },
+  "Finance Analyst": {
+    "skills": ["excel", "financial modeling", "sql", "power bi", "forecasting", "valuation"],
+    "projects": [
+      {"title": "Financial Model", "description": "Build forecasting model and dashboards.", "tech_stack": ["Excel", "Power BI"]},
+      {"title": "Budget Automation", "description": "Automate budget tracking.", "tech_stack": ["Python", "Excel"]},
+      {"title": "KPI Dashboard", "description": "Monitor finance KPIs.", "tech_stack": ["Power BI"]}
+    ]
+  },
+  "Business Analyst": {
+    "skills": ["sql", "excel", "data analysis", "requirements gathering", "stakeholder management"],
+    "projects": [
+      {"title": "KPI Dashboard", "description": "Create business KPI dashboard.", "tech_stack": ["Excel", "SQL"]},
+      {"title": "Process Mapping", "description": "Map and optimize critical process.", "tech_stack": ["Draw.io"]},
+      {"title": "Requirements Spec", "description": "Write functional specifications.", "tech_stack": ["Docs"]}
+    ]
+  },
+  "Marketing Specialist (Digital)": {
+    "skills": ["seo", "sem", "google analytics", "content marketing", "ads", "email marketing"],
+    "projects": [
+      {"title": "SEO Audit", "description": "Perform SEO audit and action plan.", "tech_stack": ["Analytics"]},
+      {"title": "Campaign", "description": "Plan and run a paid campaign and measure ROI.", "tech_stack": ["Google Ads"]},
+      {"title": "Content Calendar", "description": "Plan and publish a content calendar.", "tech_stack": ["CMS"]}
+    ]
+  },
+  "HR Associate": {
+    "skills": ["recruitment", "onboarding", "employee engagement", "hr policies", "interviewing"],
+    "projects": [
+      {"title": "Onboarding Flow", "description": "Design onboarding program and docs.", "tech_stack": ["Notion"]},
+      {"title": "Interview Framework", "description": "Create structured interviewing process.", "tech_stack": ["Docs"]},
+      {"title": "Employee Survey", "description": "Run engagement surveys.", "tech_stack": ["Typeform"]}
+    ]
+  },
+  "Operations Analyst": {
+    "skills": ["process optimization", "excel", "sql", "analytics", "automation"],
+    "projects": [
+      {"title": "Process Audit", "description": "Audit and optimize operational workflows.", "tech_stack": ["Sheets"]},
+      {"title": "Automation Script", "description": "Automate recurring operational tasks.", "tech_stack": ["Python"]},
+      {"title": "Ops Dashboard", "description": "Monitor key ops metrics.", "tech_stack": ["Tableau"]}
+    ]
+  },
+  "General": {
+    "skills": ["communication", "problem solving", "teamwork", "documentation"],
+    "projects": [
+      {"title": "Portfolio", "description": "Curate projects and add README and demo.", "tech_stack": ["Docs", "GitHub"]},
+      {"title": "Tooling Script", "description": "Automation to improve productivity.", "tech_stack": ["Python"]},
+      {"title": "Boilerplate", "description": "Starter template for projects.", "tech_stack": ["Node", "React"]}
+    ]
+  }
+}
