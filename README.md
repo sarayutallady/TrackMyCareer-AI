@@ -64,7 +64,6 @@ TrackMyCareer-AI is an AI-powered career intelligence platform that analyzes res
 <img width="1848" height="940" alt="Screenshot 2025-11-18 205820" src="https://github.com/user-attachments/assets/54d2768e-ca03-4401-8469-c7b4a24fff93" />
 
 
-*(Replace with your GitHub paths or uploaded images)*
 
 ---
 
