@@ -50,7 +50,7 @@ export default function OnboardingCard({ onAnalyze, setIsProcessing }) {
     formData.append("target_role", role.value);
 
     try {
-      const response = await axios.post("http://localhost:5000/analyze", formData, {
+      const response = await axios.post("https://trackmycareer-ai.onrender.com/analyze", formData, {
         headers: { "Content-Type": "multipart/form-data" }
       });
 
